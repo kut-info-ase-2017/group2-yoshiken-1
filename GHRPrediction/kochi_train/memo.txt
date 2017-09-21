@@ -1,4 +1,0 @@
-気象庁（http://www.data.jma.go.jp/gmd/risk/obsdl/index.php）
-
-wetherInfo.csv -> wether_train.pyで書き出した2013~2015年のwetherInfo.csvを縦結合したもの
-input_train.csv -> GHRP.pyで書き出した、学習・識別に用いた特徴
