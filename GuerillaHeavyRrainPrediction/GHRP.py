@@ -3,7 +3,7 @@
 # filename : GHRPrediction.py
 # args     : 第1引数：教師用データに使用するcsvファイルのあるディレクトリ
 #            第2引数：テスト用データに使用するcsvファイルへのあるディレクトリ
-# data     : ./wetherInfo.csv
+# data     : ./kochi_train/wetherInfo.csv
 #            wether2csv.pyで書き出したcsvファイル
 # memo     : 天候情報を学習・ゲリラ豪雨がくるかどうか識別率算出、用いた特徴をcsvで書き出し
 # ---------------------------------------------------------------------
