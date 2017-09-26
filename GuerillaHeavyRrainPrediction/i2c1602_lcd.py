@@ -103,7 +103,7 @@ def main():
     lcd_string("Warning !!!", LCD_LINE_2)
     # lcd_string("The rainfall over "+str(arg)+" mm",LCD_LINE_2)
 
-    time.sleep(3)
+    time.sleep(2)
     lcd_string("The rainfall",LCD_LINE_1)
     lcd_string("over "+str(arg)+" mm", LCD_LINE_2)
     # Send some more text
@@ -126,7 +126,9 @@ if __name__ == '__main__':
     main()
   except KeyboardInterrupt:
    # pass
-    destroy()
-  finally:
-    lcd_byte(0x01, LCD_CMD)
+   destroy()
+   lcd_byte(0x01, LCD_CMD)
+
+ # finally:
+ #   lcd_byte(0x01, LCD_CMD)
 
